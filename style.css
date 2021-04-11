@@ -12,8 +12,7 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-    url(images/university.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/university.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,7 +29,7 @@ nav {
 nav span {
     width: 100px;
     height: 50px;
-    color: #fff; 
+    color: #fff;
     ;
 }
 
@@ -59,8 +58,7 @@ nav span {
     transition: 0.5s;
     display: block;
     margin: auto;
-    background: #E74C3C  
-    ;
+    background: #E74C3C;
 }
 
 .nav-links ul li:hover::after {
@@ -107,6 +105,7 @@ nav span {
     background: #f44336;
     transition: 1s;
 }
+
 
 /* course */
 
@@ -164,7 +163,9 @@ nav span {
     border: 1px solid #34495E;
 }
 
+
 /* campus */
+
 .campus {
     width: 80%;
     padding-top: 50px;
@@ -228,7 +229,9 @@ nav span {
     opacity: 1;
 }
 
+
 /* facilities */
+
 .facilities {
     width: 80%;
     padding-top: 100px;
@@ -273,7 +276,9 @@ nav span {
     font-size: 12px;
 }
 
+
 /* testimonials */
+
 .testimonials {
     width: 80%;
     padding-top: 100px;
@@ -325,15 +330,16 @@ nav span {
     color: #f44336;
 }
 
+
 /* call to action */
+
 .cta {
     width: 80%;
     margin: 100px auto;
     text-align: center;
     border-radius: 10px;
     padding: 100px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-    url(images/meeting.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/meeting.jpg);
     background-size: cover;
 }
 
@@ -349,7 +355,6 @@ nav span {
     text-align: center;
     background: rgb(136, 135, 135);
     border: 2px solid #34495E;
-    
 }
 
 .footer h4 {
@@ -362,7 +367,6 @@ nav span {
     font-size: 12px;
     color: #fff;
     margin-top: 10px;
-
 }
 
 .icons .fa {
@@ -382,6 +386,7 @@ nav .fa {
 
 
 /* media for responsive design */
+
 @media (max-width:700px) {
     .text-box h1 {
         font-size: 20px;
@@ -429,21 +434,21 @@ nav .fa {
     .campus h1 {
         font-size: 20px;
     }
-    
     .campus p {
         font-size: 8px;
+    }
+    .campus-col img {
+        height: 200px;
     }
     .facilities h1 {
         font-size: 20px;
     }
-    
     .facilities p {
         font-size: 8px;
     }
     .testimonials h1 {
         font-size: 20px;
     }
-    
     .testimonials p {
         font-size: 8px;
     }
@@ -455,13 +460,9 @@ nav .fa {
         font-size: 14px;
     }
     .footer h4 {
-       font-size: 14px;
+        font-size: 14px;
     }
-    
     .footer p {
         font-size: 8px;
-    
     }
-    
 }
-
